@@ -6,4 +6,4 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   templateUrl: './gifs-side-menu-header.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class GifsSideMenuHeaderComponent { }
+export class GifsSideMenuHeaderComponent {}
