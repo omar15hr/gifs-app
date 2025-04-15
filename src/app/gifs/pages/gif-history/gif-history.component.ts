@@ -8,7 +8,7 @@ import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute } from '@angular/router';
 import { map } from 'rxjs';
 import { GifsService } from '../../services/gifs.service';
-import { GifListComponent } from "../../components/gif-list/gif-list.component";
+import { GifListComponent } from '../../components/gif-list/gif-list.component';
 
 @Component({
   selector: 'app-gif-history',
