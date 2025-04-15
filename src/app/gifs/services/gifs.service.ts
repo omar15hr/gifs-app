@@ -80,9 +80,6 @@ export class GifsService {
           }));
         })
       );
-    // .subscribe((resp) => {
-    //   const gifs = GifMapper.mapGiphyItemsToGifArray(resp.data);
-    // });
   }
 
   gifHistoryGifs(query: string): Gif[] {
