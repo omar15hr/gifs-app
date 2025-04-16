@@ -14,5 +14,8 @@
 </section>
 
 <section class="py-5">
+  @if (gifs().length === 0) {
+    <p class="text-center text-gray-500 mt-10">No se han encontrado gifs. Intenta buscar algo.</p>
+  }
   <gif-list [gifs]="gifs()" />
 </section>
